@@ -1,0 +1,1392 @@
+{
+  "info": {
+    "_postman_id": "63187583-9b52-4413-bd22-75e8b8f66431",
+    "name": "cermati_test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "21294186"
+  },
+  "item": [
+    {
+      "name": "case_01_valid_name",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=indonesia&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "indonesia"
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_01_valid_name",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=indonesia&pretty=1",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "indonesia"
+                },
+                {
+                  "key": "pretty",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:29:04 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GWx6HjkBPHcEJ0g="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=pT2xbgF39vhfO4sy%2FriAEYUnMScPlpyv7fghkD7%2FO9xqSCt2M6%2FfZm22p8C185IrkLRQD7atox6BjlgmXyBjuDDxNnPnKcD4mSaQUlL9pjH1O5PbaqIN8xUJmXbOkGLqMr93RMgFrV4%3D\"}]}"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a25306e705e53-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": {\n    \"objects\": [\n      {\n        \"names\": {\n          \"alternates\": [],\n          \"common\": \"Indonesia\",\n          \"native\": {\n            \"ind\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Republik Indonesia\"\n            }\n          },\n          \"official\": \"Republic of Indonesia\",\n          \"translations\": {\n            \"ara\": {\n              \"common\": \"إندونيسيا\",\n              \"official\": \"جمهورية إندونيسيا\"\n            },\n            \"bre\": {\n              \"common\": \"Indonezia\",\n              \"official\": \"Republik Indonezia\"\n            },\n            \"ces\": {\n              \"common\": \"Indonésie\",\n              \"official\": \"Indonéská republika\"\n            },\n            \"cym\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Republic of Indonesia\"\n            },\n            \"deu\": {\n              \"common\": \"Indonesien\",\n              \"official\": \"Republik Indonesien\"\n            },\n            \"est\": {\n              \"common\": \"Indoneesia\",\n              \"official\": \"Indoneesia Vabariik\"\n            },\n            \"fas\": {\n              \"common\": \"اندونزی\",\n              \"official\": \"جمهوری اندونزی\"\n            },\n            \"fin\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Indonesian tasavalta\"\n            },\n            \"fra\": {\n              \"common\": \"Indonésie\",\n              \"official\": \"République d'Indonésie\"\n            },\n            \"hrv\": {\n              \"common\": \"Indonezija\",\n              \"official\": \"Republika Indonezija\"\n            },\n            \"hun\": {\n              \"common\": \"Indonézia\",\n              \"official\": \"Indonéz Köztársaság\"\n            },\n            \"ind\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Republik Indonesia\"\n            },\n            \"ita\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Repubblica di Indonesia\"\n            },\n            \"jpn\": {\n              \"common\": \"インドネシア\",\n              \"official\": \"インドネシア共和国\"\n            },\n            \"kor\": {\n              \"common\": \"인도네시아\",\n              \"official\": \"인도네시아 공화국\"\n            },\n            \"nld\": {\n              \"common\": \"Indonesië\",\n              \"official\": \"Republiek Indonesië\"\n            },\n            \"pol\": {\n              \"common\": \"Indonezja\",\n              \"official\": \"Republika Indonezji\"\n            },\n            \"por\": {\n              \"common\": \"Indonésia\",\n              \"official\": \"República da Indonésia\"\n            },\n            \"rus\": {\n              \"common\": \"Индонезия\",\n              \"official\": \"Республика Индонезия\"\n            },\n            \"slk\": {\n              \"common\": \"Indonézia\",\n              \"official\": \"Indonézska republika\"\n            },\n            \"spa\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"República de Indonesia\"\n            },\n            \"srp\": {\n              \"common\": \"Индонезија\",\n              \"official\": \"Република Индонезија\"\n            },\n            \"swe\": {\n              \"common\": \"Indonesien\",\n              \"official\": \"Republiken Indonesien\"\n            },\n            \"tur\": {\n              \"common\": \"Endonezya\",\n              \"official\": \"Endonezya Cumhuriyeti\"\n            },\n            \"urd\": {\n              \"common\": \"انڈونیشیا\",\n              \"official\": \"جمہوریہ انڈونیشیا\"\n            },\n            \"zho\": {\n              \"common\": \"印度尼西亚\",\n              \"official\": \"印度尼西亚共和国\"\n            }\n          }\n        },\n        \"codes\": {\n          \"alpha_2\": \"ID\",\n          \"alpha_3\": \"IDN\",\n          \"ccn3\": \"360\",\n          \"cioc\": \"INA\",\n          \"fifa\": \"IDN\",\n          \"fips\": \"ID\",\n          \"gec\": \"ID\"\n        },\n        \"capitals\": [\n          {\n            \"attributes\": {\n              \"administrative\": false,\n              \"constitutional\": false,\n              \"executive\": false,\n              \"judicial\": false,\n              \"legislative\": false,\n              \"primary\": true\n            },\n            \"coordinates\": {\n              \"lat\": -6.17,\n              \"lng\": 106.82\n            },\n            \"name\": \"Jakarta\"\n          }\n        ],\n        \"flag\": {\n          \"colors\": {\n            \"dominant\": \"#ff0200\",\n            \"palette\": [\n              {\n                \"hex\": \"#ff0200\",\n                \"proportion\": 0.4970306075833714\n              },\n              {\n                \"hex\": \"#ff7e7f\",\n                \"proportion\": 0.005938784833257195\n              },\n              {\n                \"hex\": \"#ffffff\",\n                \"proportion\": 0.4913202375513933\n              },\n              {\n                \"hex\": \"#fffcfc\",\n                \"proportion\": 0.005710370031978072\n              }\n            ],\n            \"prominent\": \"#ff0200\",\n            \"swatches\": {\n              \"dark_muted\": null,\n              \"dark_vibrant\": null,\n              \"light_muted\": \"#ffffff\",\n              \"light_vibrant\": \"#ff7e7f\",\n              \"muted\": null,\n              \"vibrant\": \"#ff0200\"\n            }\n          },\n          \"description\": \"The flag of Indonesia is composed of two equal horizontal bands of red and white.\",\n          \"emoji\": \"🇮🇩\",\n          \"html_entity\": \"&#127470;&#127465;\",\n          \"unicode\": \"U+1F1EE U+1F1E9\",\n          \"url_png\": \"https://flags.restcountries.com/v5/w640/id.png\",\n          \"url_svg\": \"https://flags.restcountries.com/v5/svg/id.svg\"\n        },\n        \"region\": \"Asia\",\n        \"subregion\": \"South-Eastern Asia\",\n        \"area\": {\n          \"kilometers\": 1904569,\n          \"miles\": 735357.9\n        },\n        \"assets\": [],\n        \"borders\": [\n          \"TLS\",\n          \"MYS\",\n          \"PNG\"\n        ],\n        \"calling_codes\": [\n          \"62\"\n        ],\n        \"cars\": {\n          \"driving_side\": \"left\",\n          \"signs\": [\n            \"RI\"\n          ]\n        },\n        \"classification\": {\n          \"dependency\": false,\n          \"dependency_type\": \"\",\n          \"disputed\": false,\n          \"iso_status\": \"official\",\n          \"sovereign\": true,\n          \"un_member\": true,\n          \"un_observer\": false\n        },\n        \"continents\": [\n          \"Asia\"\n        ],\n        \"coordinates\": {\n          \"lat\": -5,\n          \"lng\": 120\n        },\n        \"currencies\": [\n          {\n            \"code\": \"IDR\",\n            \"name\": \"Indonesian rupiah\",\n            \"symbol\": \"Rp\"\n          }\n        ],\n        \"date\": {\n          \"academic_year_start\": {\n            \"day\": 15,\n            \"month\": 7\n          },\n          \"fiscal_year_start\": {\n            \"corporate\": {\n              \"basis\": \"convention\",\n              \"day\": 1,\n              \"month\": 1\n            },\n            \"government\": {\n              \"day\": 1,\n              \"month\": 1\n            },\n            \"personal\": {\n              \"day\": 1,\n              \"month\": 1\n            }\n          },\n          \"start_of_week\": \"monday\"\n        },\n        \"demonyms\": {\n          \"eng\": {\n            \"f\": \"Indonesian\",\n            \"m\": \"Indonesian\"\n          },\n          \"fra\": {\n            \"f\": \"Indonésienne\",\n            \"m\": \"Indonésien\"\n          }\n        },\n        \"descriptions\": {\n          \"long\": \"Indonesia is the largest archipelagic state and among the most populous countries, with Jakarta as its capital and Indonesian as its official language. The rupiah is the currency, and coal, palm oil, nickel and gas lead its exports.\",\n          \"short\": \"Indonesia is a Southeast Asian archipelago republic of more than 17,000 islands on the equator.\"\n        },\n        \"economy\": {\n          \"gini_coefficient\": {\n            \"2021\": 35.5,\n            \"2022\": 35.5,\n            \"2023\": 36.1,\n            \"2024\": 34.9,\n            \"2025\": 34.4\n          }\n        },\n        \"government_type\": \"Unitary presidential republic\",\n        \"landlocked\": false,\n        \"languages\": [\n          {\n            \"bcp47\": \"id\",\n            \"iso639_1\": \"id\",\n            \"iso639_2b\": \"ind\",\n            \"iso639_2t\": \"ind\",\n            \"iso639_3\": \"ind\",\n            \"name\": \"Indonesian\",\n            \"native_name\": \"Bahasa Indonesia\"\n          }\n        ],\n        \"leaders\": [\n          {\n            \"message\": \"data.leaders is only available on paid plans. Go to https://restcountries.com/plans to make updates to your account.\",\n            \"sample\": \"https://files-03.restcountries.com/countries.00/sample.leaders.json\"\n          }\n        ],\n        \"links\": {\n          \"google_maps\": \"https://goo.gl/maps/9gfPupm5bffixiFJ6\",\n          \"official\": \"https://www.indonesia.go.id\",\n          \"open_street_maps\": \"https://www.openstreetmap.org/relation/21335\",\n          \"wikipedia\": \"https://en.wikipedia.org/wiki/Indonesia\"\n        },\n        \"memberships\": {\n          \"african_union\": false,\n          \"arab_league\": false,\n          \"asean\": true,\n          \"brics\": false,\n          \"commonwealth\": false,\n          \"eu\": false,\n          \"eurozone\": false,\n          \"g20\": true,\n          \"g7\": false,\n          \"nato\": false,\n          \"oecd\": false,\n          \"opec\": false,\n          \"schengen\": false,\n          \"un\": true\n        },\n        \"number_format\": {\n          \"decimal_separator\": \",\",\n          \"thousands_separator\": \".\"\n        },\n        \"parent\": {\n          \"alpha_2\": \"\",\n          \"alpha_3\": \"\"\n        },\n        \"population\": 288315089,\n        \"postal_code\": {\n          \"format\": \"#####\",\n          \"regex\": \"^(\\\\d{5})$\"\n        },\n        \"timezones\": [\n          \"UTC+07:00\",\n          \"UTC+08:00\",\n          \"UTC+09:00\"\n        ],\n        \"tlds\": [\n          \".id\"\n        ],\n        \"units\": {\n          \"measurement_system\": \"metric\",\n          \"temperature_scale\": \"Celsius\"\n        },\n        \"uuid\": \"5fb9f226-c7d8-494f-bd70-3cd34a953da6\",\n        \"_match\": [\n          {\n            \"path\": \"currencies[0].name\",\n            \"value\": \"Indonesian rupiah\"\n          },\n          {\n            \"path\": \"demonyms.eng.m\",\n            \"value\": \"Indonesian\"\n          },\n          {\n            \"path\": \"demonyms.eng.f\",\n            \"value\": \"Indonesian\"\n          },\n          {\n            \"path\": \"flag.description\",\n            \"value\": \"The flag of Indonesia is composed of two equal horizontal bands of red and white.\"\n          },\n          {\n            \"path\": \"languages[0].name\",\n            \"value\": \"Indonesian\"\n          },\n          {\n            \"path\": \"languages[0].native_name\",\n            \"value\": \"Bahasa Indonesia\"\n          },\n          {\n            \"path\": \"names.native.ind.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.native.ind.official\",\n            \"value\": \"Republik Indonesia\"\n          },\n          {\n            \"path\": \"names.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.official\",\n            \"value\": \"Republic of Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.cym.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.cym.official\",\n            \"value\": \"Republic of Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.fin.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.fin.official\",\n            \"value\": \"Indonesian tasavalta\"\n          },\n          {\n            \"path\": \"names.translations.ind.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.ind.official\",\n            \"value\": \"Republik Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.ita.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.ita.official\",\n            \"value\": \"Repubblica di Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.spa.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.spa.official\",\n            \"value\": \"República de Indonesia\"\n          }\n        ],\n        \"_meta\": {\n          \"lastUpdatedTimestamp\": 1788557518\n        }\n      }\n    ],\n    \"meta\": {\n      \"total\": 1,\n      \"count\": 1,\n      \"limit\": 25,\n      \"offset\": 0,\n      \"more\": false,\n      \"request_id\": \"be4c3bcd-94a1-423b-a239-7cc2f2b78d95\",\n      \"duration\": 129\n    }\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_03_cote_divore",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=Côte d'Ivoire&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "Côte d'Ivoire"
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_03_cote_divore",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": ""
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:45:14 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GW0Rpg9RPHcEMCQ="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=l9J1D6u4glqyi2CCRmSkfZAOF6KRIBakEqv3VsokK5fyF7t8%2BKhpBP3FUxA8vR%2BpcDHx5It1PJlxUjbv1U%2FtFFWclZsiOu1ojB9ivctHCmxKlSkCTXkYyIgAe1LE8lqjIlgmrmF8hpY%3D\"}]}"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a3cdde955e63b-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": {\n    \"objects\": [\n      {\n        \"names\": {\n          \"alternates\": [],\n          \"common\": \"Ivory Coast\",\n          \"native\": {\n            \"fra\": {\n              \"common\": \"Côte d'Ivoire\",\n              \"official\": \"République de Côte d'Ivoire\"\n            }\n          },\n          \"official\": \"Republic of Côte d'Ivoire\",\n          \"translations\": {\n            \"ara\": {\n              \"common\": \"ساحل العاج\",\n              \"official\": \"جمهورية ساحل العاج\"\n            },\n            \"bre\": {\n              \"common\": \"Aod an Olifant\",\n              \"official\": \"Republik Aod an Olifant\"\n            },\n            \"ces\": {\n              \"common\": \"Pobřeží slonoviny\",\n              \"official\": \"Republika Pobřeží slonoviny\"\n            },\n            \"cym\": {\n              \"common\": \"Ivory Coast\",\n              \"official\": \"Republic of Côte d'Ivoire\"\n            },\n            \"deu\": {\n              \"common\": \"Elfenbeinküste\",\n              \"official\": \"Republik Côte d'Ivoire\"\n            },\n            \"est\": {\n              \"common\": \"Elevandiluurannik\",\n              \"official\": \"Côte d’Ivoire’i Vabariik\"\n            },\n            \"fas\": {\n              \"common\": \"ساحل عاج\",\n              \"official\": \"جمهوری ساحل عاج\"\n            },\n            \"fin\": {\n              \"common\": \"Norsunluurannikko\",\n              \"official\": \"Norsunluurannikon tasavalta\"\n            },\n            \"fra\": {\n              \"common\": \"Côte d'Ivoire\",\n              \"official\": \"République de Côte d' Ivoire\"\n            },\n            \"hrv\": {\n              \"common\": \"Obala Bjelokosti\",\n              \"official\": \"Republika Côte d'Ivoire\"\n            },\n            \"hun\": {\n              \"common\": \"Elefántcsontpart\",\n              \"official\": \"Elefántcsontparti Köztársaság\"\n            },\n            \"ind\": {\n              \"common\": \"Pantai Gading\",\n              \"official\": \"Republik Pantai Gading\"\n            },\n            \"ita\": {\n              \"common\": \"Costa d'Avorio\",\n              \"official\": \"Repubblica della Costa d'Avorio\"\n            },\n            \"jpn\": {\n              \"common\": \"コートジボワール\",\n              \"official\": \"コートジボワール共和国\"\n            },\n            \"kor\": {\n              \"common\": \"코트디부아르\",\n              \"official\": \"코트디부아르 공화국\"\n            },\n            \"nld\": {\n              \"common\": \"Ivoorkust\",\n              \"official\": \"Republiek Ivoorkust\"\n            },\n            \"pol\": {\n              \"common\": \"WybrzeŻe Kości Słoniowej\",\n              \"official\": \"Republika WybrzeŻa Kości Słoniowej\"\n            },\n            \"por\": {\n              \"common\": \"Costa do Marfim\",\n              \"official\": \"República da Côte d'Ivoire\"\n            },\n            \"rus\": {\n              \"common\": \"Кот-д’Ивуар\",\n              \"official\": \"Республика Кот-д'Ивуаре\"\n            },\n            \"slk\": {\n              \"common\": \"Pobržie Slonoviny\",\n              \"official\": \"Republika Pobrežie Slonoviny\"\n            },\n            \"spa\": {\n              \"common\": \"Costa de Marfil\",\n              \"official\": \"República de Côte d'Ivoire\"\n            },\n            \"srp\": {\n              \"common\": \"Обала Слоноваче\",\n              \"official\": \"Република Обала Слоноваче\"\n            },\n            \"swe\": {\n              \"common\": \"Elfenbenskusten\",\n              \"official\": \"Republiken Elfenbenskusten\"\n            },\n            \"tur\": {\n              \"common\": \"Fildişi Sahili\",\n              \"official\": \"Fildişi Sahili\"\n            },\n            \"urd\": {\n              \"common\": \"آئیوری کوسٹ\",\n              \"official\": \"جمہوریہ کوت دیواغ\"\n            },\n            \"zho\": {\n              \"common\": \"科特迪瓦\",\n              \"official\": \"科特迪瓦共和国\"\n            }\n          }\n        },\n        \"codes\": {\n          \"alpha_2\": \"CI\",\n          \"alpha_3\": \"CIV\",\n          \"ccn3\": \"384\",\n          \"cioc\": \"CIV\",\n          \"fifa\": \"CIV\",\n          \"fips\": \"IV\",\n          \"gec\": \"IV\"\n        },\n        \"capitals\": [\n          {\n            \"attributes\": {\n              \"administrative\": false,\n              \"constitutional\": false,\n              \"executive\": false,\n              \"judicial\": false,\n              \"legislative\": false,\n              \"primary\": true\n            },\n            \"coordinates\": {\n              \"lat\": 6.82,\n              \"lng\": -5.27\n            },\n            \"name\": \"Yamoussoukro\"\n          }\n        ],\n        \"flag\": {\n          \"colors\": {\n            \"dominant\": \"#f67f00\",\n            \"palette\": [\n              {\n                \"hex\": \"#f67f00\",\n                \"proportion\": 0.32823206943809957\n              },\n              {\n                \"hex\": \"#ffffff\",\n                \"proportion\": 0.32023755139333027\n              },\n              {\n                \"hex\": \"#acdbc4\",\n                \"proportion\": 0.007994518044769302\n              },\n              {\n                \"hex\": \"#079e5f\",\n                \"proportion\": 0.32023755139333027\n              },\n              {\n                \"hex\": \"#f6770b\",\n                \"proportion\": 0.0077661032434901784\n              },\n              {\n                \"hex\": \"#fcfefd\",\n                \"proportion\": 0.0077661032434901784\n              },\n              {\n                \"hex\": \"#009f63\",\n                \"proportion\": 0.0077661032434901784\n              }\n            ],\n            \"prominent\": \"#f67f00\",\n            \"swatches\": {\n              \"dark_muted\": null,\n              \"dark_vibrant\": null,\n              \"light_muted\": \"#acdbc4\",\n              \"light_vibrant\": \"#f6770b\",\n              \"muted\": \"#079e5f\",\n              \"vibrant\": \"#f67f00\"\n            }\n          },\n          \"description\": \"The flag of Ivory Coast is composed of three equal vertical bands of orange, white and green.\",\n          \"emoji\": \"🇨🇮\",\n          \"html_entity\": \"&#127464;&#127470;\",\n          \"unicode\": \"U+1F1E8 U+1F1EE\",\n          \"url_png\": \"https://flags.restcountries.com/v5/w640/ci.png\",\n          \"url_svg\": \"https://flags.restcountries.com/v5/svg/ci.svg\"\n        },\n        \"region\": \"Africa\",\n        \"subregion\": \"Western Africa\",\n        \"area\": {\n          \"kilometers\": 322463,\n          \"miles\": 124503.6\n        },\n        \"assets\": [],\n        \"borders\": [\n          \"BFA\",\n          \"GHA\",\n          \"GIN\",\n          \"LBR\",\n          \"MLI\"\n        ],\n        \"calling_codes\": [\n          \"225\"\n        ],\n        \"cars\": {\n          \"driving_side\": \"right\",\n          \"signs\": [\n            \"CI\"\n          ]\n        },\n        \"classification\": {\n          \"dependency\": false,\n          \"dependency_type\": \"\",\n          \"disputed\": false,\n          \"iso_status\": \"official\",\n          \"sovereign\": true,\n          \"un_member\": true,\n          \"un_observer\": false\n        },\n        \"continents\": [\n          \"Africa\"\n        ],\n        \"coordinates\": {\n          \"lat\": 8,\n          \"lng\": -5\n        },\n        \"currencies\": [\n          {\n            \"code\": \"XOF\",\n            \"name\": \"West African CFA franc\",\n            \"symbol\": \"Fr\"\n          }\n        ],\n        \"date\": {\n          \"academic_year_start\": {\n            \"day\": 1,\n            \"month\": 9\n          },\n          \"fiscal_year_start\": {\n            \"corporate\": {\n              \"basis\": \"convention\",\n              \"day\": 1,\n              \"month\": 1\n            },\n            \"government\": {\n              \"day\": 1,\n              \"month\": 1\n            },\n            \"personal\": {\n              \"day\": 1,\n              \"month\": 1\n            }\n          },\n          \"start_of_week\": \"monday\"\n        },\n        \"demonyms\": {\n          \"eng\": {\n            \"f\": \"Ivorian\",\n            \"m\": \"Ivorian\"\n          },\n          \"fra\": {\n            \"f\": \"Ivoirienne\",\n            \"m\": \"Ivoirien\"\n          }\n        },\n        \"descriptions\": {\n          \"long\": \"Ivory Coast is a republic with Yamoussoukro as its official capital and Abidjan as its largest city and economic centre. French is the official language, the West African CFA franc is the currency, and it leads the world in cocoa output.\",\n          \"short\": \"Ivory Coast is a West African republic on the Gulf of Guinea, bordering Ghana, Guinea and Mali.\"\n        },\n        \"economy\": {\n          \"gini_coefficient\": {\n            \"2002\": 41.3,\n            \"2008\": 43.2,\n            \"2015\": 41.5,\n            \"2019\": 37.2,\n            \"2022\": 35.3\n          }\n        },\n        \"government_type\": \"Unitary presidential republic\",\n        \"landlocked\": false,\n        \"languages\": [\n          {\n            \"bcp47\": \"fr\",\n            \"iso639_1\": \"fr\",\n            \"iso639_2b\": \"fre\",\n            \"iso639_2t\": \"fra\",\n            \"iso639_3\": \"fra\",\n            \"name\": \"French\",\n            \"native_name\": \"français\"\n          }\n        ],\n        \"leaders\": [\n          {\n            \"message\": \"data.leaders is only available on paid plans. Go to https://restcountries.com/plans to make updates to your account.\",\n            \"sample\": \"https://files-03.restcountries.com/countries.00/sample.leaders.json\"\n          }\n        ],\n        \"links\": {\n          \"google_maps\": \"https://goo.gl/maps/wKsmN7f5qAeNtGjP6\",\n          \"official\": \"https://www.gouv.ci\",\n          \"open_street_maps\": \"https://www.openstreetmap.org/relation/192779\",\n          \"wikipedia\": \"https://en.wikipedia.org/wiki/Ivory_Coast\"\n        },\n        \"memberships\": {\n          \"african_union\": true,\n          \"arab_league\": false,\n          \"asean\": false,\n          \"brics\": false,\n          \"commonwealth\": false,\n          \"eu\": false,\n          \"eurozone\": false,\n          \"g20\": false,\n          \"g7\": false,\n          \"nato\": false,\n          \"oecd\": false,\n          \"opec\": false,\n          \"schengen\": false,\n          \"un\": true\n        },\n        \"number_format\": {\n          \"decimal_separator\": \",\",\n          \"thousands_separator\": \".\"\n        },\n        \"parent\": {\n          \"alpha_2\": \"\",\n          \"alpha_3\": \"\"\n        },\n        \"population\": 33293101,\n        \"postal_code\": {\n          \"format\": \"\",\n          \"regex\": \"\"\n        },\n        \"timezones\": [\n          \"UTC\"\n        ],\n        \"tlds\": [\n          \".ci\"\n        ],\n        \"units\": {\n          \"measurement_system\": \"metric\",\n          \"temperature_scale\": \"Celsius\"\n        },\n        \"uuid\": \"7453790b-38e6-4f78-a05a-ae1e223d4dc5\",\n        \"_match\": [\n          {\n            \"path\": \"names.native.fra.common\",\n            \"value\": \"Côte d'Ivoire\"\n          },\n          {\n            \"path\": \"names.native.fra.official\",\n            \"value\": \"République de Côte d'Ivoire\"\n          },\n          {\n            \"path\": \"names.official\",\n            \"value\": \"Republic of Côte d'Ivoire\"\n          },\n          {\n            \"path\": \"names.translations.cym.official\",\n            \"value\": \"Republic of Côte d'Ivoire\"\n          },\n          {\n            \"path\": \"names.translations.deu.official\",\n            \"value\": \"Republik Côte d'Ivoire\"\n          },\n          {\n            \"path\": \"names.translations.fra.common\",\n            \"value\": \"Côte d'Ivoire\"\n          },\n          {\n            \"path\": \"names.translations.hrv.official\",\n            \"value\": \"Republika Côte d'Ivoire\"\n          },\n          {\n            \"path\": \"names.translations.por.official\",\n            \"value\": \"República da Côte d'Ivoire\"\n          },\n          {\n            \"path\": \"names.translations.spa.official\",\n            \"value\": \"República de Côte d'Ivoire\"\n          }\n        ],\n        \"_meta\": {\n          \"lastUpdatedTimestamp\": 1790171624\n        }\n      }\n    ],\n    \"meta\": {\n      \"total\": 1,\n      \"count\": 1,\n      \"limit\": 25,\n      \"offset\": 0,\n      \"more\": false,\n      \"request_id\": \"daf0571a-4ebc-4ae3-b668-94bf718ad28e\",\n      \"duration\": 73\n    }\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_02_lower_case",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=indonesiA&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "indonesiA"
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_02_lower_case",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=indonesiA&pretty=1",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "indonesiA"
+                },
+                {
+                  "key": "pretty",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:37:51 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GWzMbjV6PHcEJtA="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Uze0E6nnRhQ6yZMjKy0Ji2c%2BsByRJLHtQ03dX7pVrkbPZ%2BdT3UhEECgsW%2FbJV23OATnl7IDunZdc2EDBHy%2Fif5sP869RuLoZzZhesTTKW9rDLQRFNrGH5wx8wfAVRJbjlI7W3Zzp0Qo%3D\"}]}"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a320cf932c1cf-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": {\n    \"objects\": [\n      {\n        \"names\": {\n          \"alternates\": [],\n          \"common\": \"Indonesia\",\n          \"native\": {\n            \"ind\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Republik Indonesia\"\n            }\n          },\n          \"official\": \"Republic of Indonesia\",\n          \"translations\": {\n            \"ara\": {\n              \"common\": \"إندونيسيا\",\n              \"official\": \"جمهورية إندونيسيا\"\n            },\n            \"bre\": {\n              \"common\": \"Indonezia\",\n              \"official\": \"Republik Indonezia\"\n            },\n            \"ces\": {\n              \"common\": \"Indonésie\",\n              \"official\": \"Indonéská republika\"\n            },\n            \"cym\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Republic of Indonesia\"\n            },\n            \"deu\": {\n              \"common\": \"Indonesien\",\n              \"official\": \"Republik Indonesien\"\n            },\n            \"est\": {\n              \"common\": \"Indoneesia\",\n              \"official\": \"Indoneesia Vabariik\"\n            },\n            \"fas\": {\n              \"common\": \"اندونزی\",\n              \"official\": \"جمهوری اندونزی\"\n            },\n            \"fin\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Indonesian tasavalta\"\n            },\n            \"fra\": {\n              \"common\": \"Indonésie\",\n              \"official\": \"République d'Indonésie\"\n            },\n            \"hrv\": {\n              \"common\": \"Indonezija\",\n              \"official\": \"Republika Indonezija\"\n            },\n            \"hun\": {\n              \"common\": \"Indonézia\",\n              \"official\": \"Indonéz Köztársaság\"\n            },\n            \"ind\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Republik Indonesia\"\n            },\n            \"ita\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"Repubblica di Indonesia\"\n            },\n            \"jpn\": {\n              \"common\": \"インドネシア\",\n              \"official\": \"インドネシア共和国\"\n            },\n            \"kor\": {\n              \"common\": \"인도네시아\",\n              \"official\": \"인도네시아 공화국\"\n            },\n            \"nld\": {\n              \"common\": \"Indonesië\",\n              \"official\": \"Republiek Indonesië\"\n            },\n            \"pol\": {\n              \"common\": \"Indonezja\",\n              \"official\": \"Republika Indonezji\"\n            },\n            \"por\": {\n              \"common\": \"Indonésia\",\n              \"official\": \"República da Indonésia\"\n            },\n            \"rus\": {\n              \"common\": \"Индонезия\",\n              \"official\": \"Республика Индонезия\"\n            },\n            \"slk\": {\n              \"common\": \"Indonézia\",\n              \"official\": \"Indonézska republika\"\n            },\n            \"spa\": {\n              \"common\": \"Indonesia\",\n              \"official\": \"República de Indonesia\"\n            },\n            \"srp\": {\n              \"common\": \"Индонезија\",\n              \"official\": \"Република Индонезија\"\n            },\n            \"swe\": {\n              \"common\": \"Indonesien\",\n              \"official\": \"Republiken Indonesien\"\n            },\n            \"tur\": {\n              \"common\": \"Endonezya\",\n              \"official\": \"Endonezya Cumhuriyeti\"\n            },\n            \"urd\": {\n              \"common\": \"انڈونیشیا\",\n              \"official\": \"جمہوریہ انڈونیشیا\"\n            },\n            \"zho\": {\n              \"common\": \"印度尼西亚\",\n              \"official\": \"印度尼西亚共和国\"\n            }\n          }\n        },\n        \"codes\": {\n          \"alpha_2\": \"ID\",\n          \"alpha_3\": \"IDN\",\n          \"ccn3\": \"360\",\n          \"cioc\": \"INA\",\n          \"fifa\": \"IDN\",\n          \"fips\": \"ID\",\n          \"gec\": \"ID\"\n        },\n        \"capitals\": [\n          {\n            \"attributes\": {\n              \"administrative\": false,\n              \"constitutional\": false,\n              \"executive\": false,\n              \"judicial\": false,\n              \"legislative\": false,\n              \"primary\": true\n            },\n            \"coordinates\": {\n              \"lat\": -6.17,\n              \"lng\": 106.82\n            },\n            \"name\": \"Jakarta\"\n          }\n        ],\n        \"flag\": {\n          \"colors\": {\n            \"dominant\": \"#ff0200\",\n            \"palette\": [\n              {\n                \"hex\": \"#ff0200\",\n                \"proportion\": 0.4970306075833714\n              },\n              {\n                \"hex\": \"#ff7e7f\",\n                \"proportion\": 0.005938784833257195\n              },\n              {\n                \"hex\": \"#ffffff\",\n                \"proportion\": 0.4913202375513933\n              },\n              {\n                \"hex\": \"#fffcfc\",\n                \"proportion\": 0.005710370031978072\n              }\n            ],\n            \"prominent\": \"#ff0200\",\n            \"swatches\": {\n              \"dark_muted\": null,\n              \"dark_vibrant\": null,\n              \"light_muted\": \"#ffffff\",\n              \"light_vibrant\": \"#ff7e7f\",\n              \"muted\": null,\n              \"vibrant\": \"#ff0200\"\n            }\n          },\n          \"description\": \"The flag of Indonesia is composed of two equal horizontal bands of red and white.\",\n          \"emoji\": \"🇮🇩\",\n          \"html_entity\": \"&#127470;&#127465;\",\n          \"unicode\": \"U+1F1EE U+1F1E9\",\n          \"url_png\": \"https://flags.restcountries.com/v5/w640/id.png\",\n          \"url_svg\": \"https://flags.restcountries.com/v5/svg/id.svg\"\n        },\n        \"region\": \"Asia\",\n        \"subregion\": \"South-Eastern Asia\",\n        \"area\": {\n          \"kilometers\": 1904569,\n          \"miles\": 735357.9\n        },\n        \"assets\": [],\n        \"borders\": [\n          \"TLS\",\n          \"MYS\",\n          \"PNG\"\n        ],\n        \"calling_codes\": [\n          \"62\"\n        ],\n        \"cars\": {\n          \"driving_side\": \"left\",\n          \"signs\": [\n            \"RI\"\n          ]\n        },\n        \"classification\": {\n          \"dependency\": false,\n          \"dependency_type\": \"\",\n          \"disputed\": false,\n          \"iso_status\": \"official\",\n          \"sovereign\": true,\n          \"un_member\": true,\n          \"un_observer\": false\n        },\n        \"continents\": [\n          \"Asia\"\n        ],\n        \"coordinates\": {\n          \"lat\": -5,\n          \"lng\": 120\n        },\n        \"currencies\": [\n          {\n            \"code\": \"IDR\",\n            \"name\": \"Indonesian rupiah\",\n            \"symbol\": \"Rp\"\n          }\n        ],\n        \"date\": {\n          \"academic_year_start\": {\n            \"day\": 15,\n            \"month\": 7\n          },\n          \"fiscal_year_start\": {\n            \"corporate\": {\n              \"basis\": \"convention\",\n              \"day\": 1,\n              \"month\": 1\n            },\n            \"government\": {\n              \"day\": 1,\n              \"month\": 1\n            },\n            \"personal\": {\n              \"day\": 1,\n              \"month\": 1\n            }\n          },\n          \"start_of_week\": \"monday\"\n        },\n        \"demonyms\": {\n          \"eng\": {\n            \"f\": \"Indonesian\",\n            \"m\": \"Indonesian\"\n          },\n          \"fra\": {\n            \"f\": \"Indonésienne\",\n            \"m\": \"Indonésien\"\n          }\n        },\n        \"descriptions\": {\n          \"long\": \"Indonesia is the largest archipelagic state and among the most populous countries, with Jakarta as its capital and Indonesian as its official language. The rupiah is the currency, and coal, palm oil, nickel and gas lead its exports.\",\n          \"short\": \"Indonesia is a Southeast Asian archipelago republic of more than 17,000 islands on the equator.\"\n        },\n        \"economy\": {\n          \"gini_coefficient\": {\n            \"2021\": 35.5,\n            \"2022\": 35.5,\n            \"2023\": 36.1,\n            \"2024\": 34.9,\n            \"2025\": 34.4\n          }\n        },\n        \"government_type\": \"Unitary presidential republic\",\n        \"landlocked\": false,\n        \"languages\": [\n          {\n            \"bcp47\": \"id\",\n            \"iso639_1\": \"id\",\n            \"iso639_2b\": \"ind\",\n            \"iso639_2t\": \"ind\",\n            \"iso639_3\": \"ind\",\n            \"name\": \"Indonesian\",\n            \"native_name\": \"Bahasa Indonesia\"\n          }\n        ],\n        \"leaders\": [\n          {\n            \"message\": \"data.leaders is only available on paid plans. Go to https://restcountries.com/plans to make updates to your account.\",\n            \"sample\": \"https://files-03.restcountries.com/countries.00/sample.leaders.json\"\n          }\n        ],\n        \"links\": {\n          \"google_maps\": \"https://goo.gl/maps/9gfPupm5bffixiFJ6\",\n          \"official\": \"https://www.indonesia.go.id\",\n          \"open_street_maps\": \"https://www.openstreetmap.org/relation/21335\",\n          \"wikipedia\": \"https://en.wikipedia.org/wiki/Indonesia\"\n        },\n        \"memberships\": {\n          \"african_union\": false,\n          \"arab_league\": false,\n          \"asean\": true,\n          \"brics\": false,\n          \"commonwealth\": false,\n          \"eu\": false,\n          \"eurozone\": false,\n          \"g20\": true,\n          \"g7\": false,\n          \"nato\": false,\n          \"oecd\": false,\n          \"opec\": false,\n          \"schengen\": false,\n          \"un\": true\n        },\n        \"number_format\": {\n          \"decimal_separator\": \",\",\n          \"thousands_separator\": \".\"\n        },\n        \"parent\": {\n          \"alpha_2\": \"\",\n          \"alpha_3\": \"\"\n        },\n        \"population\": 288315089,\n        \"postal_code\": {\n          \"format\": \"#####\",\n          \"regex\": \"^(\\\\d{5})$\"\n        },\n        \"timezones\": [\n          \"UTC+07:00\",\n          \"UTC+08:00\",\n          \"UTC+09:00\"\n        ],\n        \"tlds\": [\n          \".id\"\n        ],\n        \"units\": {\n          \"measurement_system\": \"metric\",\n          \"temperature_scale\": \"Celsius\"\n        },\n        \"uuid\": \"5fb9f226-c7d8-494f-bd70-3cd34a953da6\",\n        \"_match\": [\n          {\n            \"path\": \"currencies[0].name\",\n            \"value\": \"Indonesian rupiah\"\n          },\n          {\n            \"path\": \"demonyms.eng.m\",\n            \"value\": \"Indonesian\"\n          },\n          {\n            \"path\": \"demonyms.eng.f\",\n            \"value\": \"Indonesian\"\n          },\n          {\n            \"path\": \"flag.description\",\n            \"value\": \"The flag of Indonesia is composed of two equal horizontal bands of red and white.\"\n          },\n          {\n            \"path\": \"languages[0].name\",\n            \"value\": \"Indonesian\"\n          },\n          {\n            \"path\": \"languages[0].native_name\",\n            \"value\": \"Bahasa Indonesia\"\n          },\n          {\n            \"path\": \"names.native.ind.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.native.ind.official\",\n            \"value\": \"Republik Indonesia\"\n          },\n          {\n            \"path\": \"names.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.official\",\n            \"value\": \"Republic of Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.cym.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.cym.official\",\n            \"value\": \"Republic of Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.fin.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.fin.official\",\n            \"value\": \"Indonesian tasavalta\"\n          },\n          {\n            \"path\": \"names.translations.ind.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.ind.official\",\n            \"value\": \"Republik Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.ita.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.ita.official\",\n            \"value\": \"Repubblica di Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.spa.common\",\n            \"value\": \"Indonesia\"\n          },\n          {\n            \"path\": \"names.translations.spa.official\",\n            \"value\": \"República de Indonesia\"\n          }\n        ],\n        \"_meta\": {\n          \"lastUpdatedTimestamp\": 1788557518\n        }\n      }\n    ],\n    \"meta\": {\n      \"total\": 1,\n      \"count\": 1,\n      \"limit\": 25,\n      \"offset\": 0,\n      \"more\": false,\n      \"request_id\": \"2646d1e6-f377-4a69-9971-9aed9fd03e18\",\n      \"duration\": 69\n    }\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_04_spacing",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=South Korea&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "South Korea"
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_04_spacing",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=South Korea&pretty=1",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "South Korea"
+                },
+                {
+                  "key": "pretty",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:47:21 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GW0lijRUPHcEPdQ="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2FmKMYvqqfr%2BdlsbnTny6oegrl5YmwmKBvULiPv6nT13bxDUXk3j1y2D12yqFUJlnKt9Ya4CGnlBdV0rUGxOGl4QkHi1iwx9BDo4SP%2BCk8%2BdFJSZIf3Ic6yJ0wPxtsvWY2u1dmatPJrE%3D\"}]}"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a3ffa3bfac502-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": {\n    \"objects\": [\n      {\n        \"names\": {\n          \"alternates\": [\n            \"Korea, Republic of\",\n            \"남한\",\n            \"남조선\"\n          ],\n          \"common\": \"South Korea\",\n          \"native\": {\n            \"kor\": {\n              \"common\": \"한국\",\n              \"official\": \"대한민국\"\n            }\n          },\n          \"official\": \"Republic of Korea\",\n          \"translations\": {\n            \"ara\": {\n              \"common\": \"كوريا الجنوبية\",\n              \"official\": \"جمهورية كوريا\"\n            },\n            \"bre\": {\n              \"common\": \"Korea ar Su\",\n              \"official\": \"Republik Korea\"\n            },\n            \"ces\": {\n              \"common\": \"Jižní Korea\",\n              \"official\": \"Korejská republika\"\n            },\n            \"cym\": {\n              \"common\": \"South Korea\",\n              \"official\": \"Republic of Korea\"\n            },\n            \"deu\": {\n              \"common\": \"Südkorea\",\n              \"official\": \"Republik Korea\"\n            },\n            \"est\": {\n              \"common\": \"Lõuna-Korea\",\n              \"official\": \"Korea Vabariik\"\n            },\n            \"fas\": {\n              \"common\": \"کرهٔ جنوبی\",\n              \"official\": \"جمهوری کره\"\n            },\n            \"fin\": {\n              \"common\": \"Etelä-Korea\",\n              \"official\": \"Korean tasavalta\"\n            },\n            \"fra\": {\n              \"common\": \"Corée du Sud\",\n              \"official\": \"République de Corée\"\n            },\n            \"hrv\": {\n              \"common\": \"Južna Koreja\",\n              \"official\": \"Republika Koreja\"\n            },\n            \"hun\": {\n              \"common\": \"Dél-Korea\",\n              \"official\": \"Koreai Köztársaság\"\n            },\n            \"ind\": {\n              \"common\": \"Korea Selatan\",\n              \"official\": \"Republik Korea\"\n            },\n            \"ita\": {\n              \"common\": \"Corea del Sud\",\n              \"official\": \"Repubblica di Corea\"\n            },\n            \"jpn\": {\n              \"common\": \"韓国\",\n              \"official\": \"大韓民国\"\n            },\n            \"kor\": {\n              \"common\": \"한국\",\n              \"official\": \"대한민국\"\n            },\n            \"nld\": {\n              \"common\": \"Zuid-Korea\",\n              \"official\": \"Republiek Korea\"\n            },\n            \"pol\": {\n              \"common\": \"Korea Południowa\",\n              \"official\": \"Republika Korei\"\n            },\n            \"por\": {\n              \"common\": \"Coreia do Sul\",\n              \"official\": \"República da Coreia\"\n            },\n            \"rus\": {\n              \"common\": \"Южная Корея\",\n              \"official\": \"Республика Корея\"\n            },\n            \"slk\": {\n              \"common\": \"Južná Kórea\",\n              \"official\": \"Kórejská republika\"\n            },\n            \"spa\": {\n              \"common\": \"Corea del Sur\",\n              \"official\": \"República de Corea\"\n            },\n            \"srp\": {\n              \"common\": \"Јужна Кореја\",\n              \"official\": \"Република Кореја\"\n            },\n            \"swe\": {\n              \"common\": \"Sydkorea\",\n              \"official\": \"Republiken Korea\"\n            },\n            \"tur\": {\n              \"common\": \"Güney Kore\",\n              \"official\": \"Kore Cumhuriyeti\"\n            },\n            \"urd\": {\n              \"common\": \"جنوبی کوریا\",\n              \"official\": \"جمہوریہ کوریا \"\n            },\n            \"zho\": {\n              \"common\": \"韩国\",\n              \"official\": \"大韩民国\"\n            }\n          }\n        },\n        \"codes\": {\n          \"alpha_2\": \"KR\",\n          \"alpha_3\": \"KOR\",\n          \"ccn3\": \"410\",\n          \"cioc\": \"KOR\",\n          \"fifa\": \"KOR\",\n          \"fips\": \"KS\",\n          \"gec\": \"KS\"\n        },\n        \"capitals\": [\n          {\n            \"attributes\": {\n              \"administrative\": false,\n              \"constitutional\": false,\n              \"executive\": false,\n              \"judicial\": false,\n              \"legislative\": false,\n              \"primary\": true\n            },\n            \"coordinates\": {\n              \"lat\": 37.55,\n              \"lng\": 126.98\n            },\n            \"name\": \"Seoul\"\n          }\n        ],\n        \"flag\": {\n          \"colors\": {\n            \"dominant\": \"#fbfaf5\",\n            \"palette\": [\n              {\n                \"hex\": \"#fbfaf5\",\n                \"proportion\": 0.7681589767016903\n              },\n              {\n                \"hex\": \"#010101\",\n                \"proportion\": 0.07309273640931932\n              },\n              {\n                \"hex\": \"#004798\",\n                \"proportion\": 0.06852444038373687\n              },\n              {\n                \"hex\": \"#c83628\",\n                \"proportion\": 0.06806761078117862\n              },\n              {\n                \"hex\": \"#c7c6d0\",\n                \"proportion\": 0.015303791685701234\n              },\n              {\n                \"hex\": \"#c0c5c5\",\n                \"proportion\": 0.0015989036089538603\n              },\n              {\n                \"hex\": \"#fdeeee\",\n                \"proportion\": 0.005025125628140704\n              },\n              {\n                \"hex\": \"#ea9b9e\",\n                \"proportion\": 0.00022841480127912289\n              }\n            ],\n            \"prominent\": \"#fbfaf5\",\n            \"swatches\": {\n              \"dark_muted\": \"#010101\",\n              \"dark_vibrant\": \"#004798\",\n              \"light_muted\": \"#fbfaf5\",\n              \"light_vibrant\": \"#ea9b9e\",\n              \"muted\": \"#c7c6d0\",\n              \"vibrant\": \"#c83628\"\n            }\n          },\n          \"description\": \"The flag of South Korea has a white field, at the center of which is a red and blue Taegeuk circle surrounded by four black trigrams, one in each corner.\",\n          \"emoji\": \"🇰🇷\",\n          \"html_entity\": \"&#127472;&#127479;\",\n          \"unicode\": \"U+1F1F0 U+1F1F7\",\n          \"url_png\": \"https://flags.restcountries.com/v5/w640/kr.png\",\n          \"url_svg\": \"https://flags.restcountries.com/v5/svg/kr.svg\"\n        },\n        \"region\": \"Asia\",\n        \"subregion\": \"Eastern Asia\",\n        \"area\": {\n          \"kilometers\": 100210,\n          \"miles\": 38691.3\n        },\n        \"assets\": [],\n        \"borders\": [\n          \"PRK\"\n        ],\n        \"calling_codes\": [\n          \"82\"\n        ],\n        \"cars\": {\n          \"driving_side\": \"right\",\n          \"signs\": [\n            \"ROK\"\n          ]\n        },\n        \"classification\": {\n          \"dependency\": false,\n          \"dependency_type\": \"\",\n          \"disputed\": false,\n          \"iso_status\": \"official\",\n          \"sovereign\": true,\n          \"un_member\": true,\n          \"un_observer\": false\n        },\n        \"continents\": [\n          \"Asia\"\n        ],\n        \"coordinates\": {\n          \"lat\": 37,\n          \"lng\": 127.5\n        },\n        \"currencies\": [\n          {\n            \"code\": \"KRW\",\n            \"name\": \"South Korean won\",\n            \"symbol\": \"₩\"\n          }\n        ],\n        \"date\": {\n          \"academic_year_start\": {\n            \"day\": 1,\n            \"month\": 3\n          },\n          \"fiscal_year_start\": {\n            \"corporate\": {\n              \"basis\": \"convention\",\n              \"day\": 1,\n              \"month\": 1\n            },\n            \"government\": {\n              \"day\": 1,\n              \"month\": 1\n            },\n            \"personal\": {\n              \"day\": 1,\n              \"month\": 1\n            }\n          },\n          \"start_of_week\": \"monday\"\n        },\n        \"demonyms\": {\n          \"eng\": {\n            \"f\": \"South Korean\",\n            \"m\": \"South Korean\"\n          },\n          \"fra\": {\n            \"f\": \"Sud-coréenne\",\n            \"m\": \"Sud-coréen\"\n          }\n        },\n        \"descriptions\": {\n          \"long\": \"South Korea is a republic with Seoul as its capital and Korean as its official language, and it faces North Korea across a demilitarized zone. The won is the currency, and semiconductors, vehicles, ships and electronics lead exports.\",\n          \"short\": \"South Korea is a republic on the southern half of the Korean Peninsula, facing Japan and China.\"\n        },\n        \"economy\": {\n          \"gini_coefficient\": {\n            \"2017\": 34.9,\n            \"2018\": 33.7,\n            \"2019\": 33.2,\n            \"2020\": 32.7,\n            \"2021\": 32.9\n          }\n        },\n        \"government_type\": \"Unitary presidential republic\",\n        \"landlocked\": false,\n        \"languages\": [\n          {\n            \"bcp47\": \"ko\",\n            \"iso639_1\": \"ko\",\n            \"iso639_2b\": \"kor\",\n            \"iso639_2t\": \"kor\",\n            \"iso639_3\": \"kor\",\n            \"name\": \"Korean\",\n            \"native_name\": \"한국어\"\n          }\n        ],\n        \"leaders\": [\n          {\n            \"message\": \"data.leaders is only available on paid plans. Go to https://restcountries.com/plans to make updates to your account.\",\n            \"sample\": \"https://files-03.restcountries.com/countries.00/sample.leaders.json\"\n          }\n        ],\n        \"links\": {\n          \"google_maps\": \"https://goo.gl/maps/7ecjaJXefjAQhxjGA\",\n          \"official\": \"https://www.korea.go.kr\",\n          \"open_street_maps\": \"https://www.openstreetmap.org/relation/307756\",\n          \"wikipedia\": \"https://en.wikipedia.org/wiki/South_Korea\"\n        },\n        \"memberships\": {\n          \"african_union\": false,\n          \"arab_league\": false,\n          \"asean\": false,\n          \"brics\": false,\n          \"commonwealth\": false,\n          \"eu\": false,\n          \"eurozone\": false,\n          \"g20\": true,\n          \"g7\": false,\n          \"nato\": false,\n          \"oecd\": true,\n          \"opec\": false,\n          \"schengen\": false,\n          \"un\": true\n        },\n        \"number_format\": {\n          \"decimal_separator\": \".\",\n          \"thousands_separator\": \",\"\n        },\n        \"parent\": {\n          \"alpha_2\": \"\",\n          \"alpha_3\": \"\"\n        },\n        \"population\": 51106229,\n        \"postal_code\": {\n          \"format\": \"SEOUL ###-###\",\n          \"regex\": \"^(?:SEOUL)*(\\\\d{6})$\"\n        },\n        \"timezones\": [\n          \"UTC+09:00\"\n        ],\n        \"tlds\": [\n          \".kr\",\n          \".한국\"\n        ],\n        \"units\": {\n          \"measurement_system\": \"metric\",\n          \"temperature_scale\": \"Celsius\"\n        },\n        \"uuid\": \"3ddbfc95-3f4b-4c79-b18b-858fa90f263f\",\n        \"_match\": [\n          {\n            \"path\": \"currencies[0].name\",\n            \"value\": \"South Korean won\"\n          },\n          {\n            \"path\": \"demonyms.eng.m\",\n            \"value\": \"South Korean\"\n          },\n          {\n            \"path\": \"demonyms.eng.f\",\n            \"value\": \"South Korean\"\n          },\n          {\n            \"path\": \"flag.description\",\n            \"value\": \"The flag of South Korea has a white field, at the center of which is a red and blue Taegeuk circle surrounded by four black trigrams, one in each corner.\"\n          },\n          {\n            \"path\": \"names.common\",\n            \"value\": \"South Korea\"\n          },\n          {\n            \"path\": \"names.translations.cym.common\",\n            \"value\": \"South Korea\"\n          }\n        ],\n        \"_meta\": {\n          \"lastUpdatedTimestamp\": 1788829229\n        }\n      }\n    ],\n    \"meta\": {\n      \"total\": 1,\n      \"count\": 1,\n      \"limit\": 25,\n      \"offset\": 0,\n      \"more\": false,\n      \"request_id\": \"f0970d03-f11d-4f3b-8f71-526935882d12\",\n      \"duration\": 53\n    }\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_11_filtering_fields",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=canada&response_fields=names.common,codes.alpha_2",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "canada"
+            },
+            {
+              "key": "response_fields",
+              "value": "names.common,codes.alpha_2"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_11_filtering_fields",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=canada&response_fields=names.common,codes.alpha_2",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "canada"
+                },
+                {
+                  "key": "response_fields",
+                  "value": "names.common,codes.alpha_2"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 09:02:43 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GW_oKj6OPHcEPMg="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=65PliCQiY9%2FZSpjIxBXlD8Gj6v7WOjdDENEPtJpNcsDFlDNfkfXh6qdiYUK5C6zKmWmgdbrYa6pKtERRUYaImvviM2OrDfot27W%2FyJbIWsadMAHbFafB9H88tHCswM2O6n8ggTLN%2B3w%3D\"}]}"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55aae624cf39bb5-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": {\n    \"objects\": [\n      {\n        \"names\": {\n          \"common\": \"Canada\"\n        },\n        \"codes\": {\n          \"alpha_2\": \"CA\"\n        },\n        \"_match\": [\n          {\n            \"path\": \"flag.description\",\n            \"value\": \"The flag of Canada is composed of a red vertical band on the hoist and fly sides and a central white square that is twice the width of the vertical bands. A large eleven-pointed red maple leaf is centered in the white square.\"\n          },\n          {\n            \"path\": \"names.native.eng.common\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.native.eng.official\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.native.fra.common\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.native.fra.official\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.common\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.official\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.translations.cym.common\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.translations.cym.official\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.translations.fra.common\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.translations.fra.official\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.translations.ita.common\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.translations.ita.official\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.translations.nld.common\",\n            \"value\": \"Canada\"\n          },\n          {\n            \"path\": \"names.translations.nld.official\",\n            \"value\": \"Canada\"\n          }\n        ],\n        \"_meta\": {\n          \"lastUpdatedTimestamp\": 1790182685\n        }\n      }\n    ],\n    \"meta\": {\n      \"total\": 1,\n      \"count\": 1,\n      \"limit\": 25,\n      \"offset\": 0,\n      \"more\": false,\n      \"request_id\": \"8b8bb907-3747-4240-b7d1-42d284055389\",\n      \"duration\": 74\n    }\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_10_use_POST_method",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=indonesia&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "indonesia"
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_10_use_POST_method",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=indonesia&pretty=1",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "indonesia"
+                },
+                {
+                  "key": "pretty",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "status": "Method Not Allowed",
+          "code": 405,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:57:51 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "128"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GW2IDiOVvHcEMkQ="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=31AtbDCoYH28fKPb5yefWygMKPvedzs9k%2FFQ9M09zQ0v%2BlYNZrExXWbL%2F0qL1SOCMsOe2tWcihWEXcw3OGGjz88r1sr9PzR5MQ3wjxAoIuGLSUx13WhO0%2BVn1N4wWWxLwe%2F9x92So84%3D\"}]}"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a4f5df97fc9a3-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"errors\": [\n    {\n      \"message\": \"Method not allowed. Allowed methods: GET.\",\n      \"code\": \"methodNotAllowed\"\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_09_no_auth",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": ""
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=indonesia&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "indonesia"
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_09_no_auth",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=indonesia&pretty=1",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "indonesia"
+                },
+                {
+                  "key": "pretty",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:56:37 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "112"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GW18YikvvHcEPKw="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3nwY77Fan%2FyajJPECS5EHuPdoEobRO%2BYhlO6qztjDvRoOOWXVG5mmidlY282iN1AkXn%2FP5lPfRLFTdovB9W9Wwwexg29L%2BDSidW1%2BGSnp2sVu4jxYeFy9e%2FWt3GktYbrnebXjDz2YVw%3D\"}]}"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a4d8ad89cb967-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"errors\": [\n    {\n      \"message\": \"Authorization key required.\",\n      \"code\": \"authKeyMissing\"\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_08_500_string",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=sadjkashqouiwrhjashfkjsafjasflashfsaoufhssdfjldajfoahfaosfsauofsafjlashfjalkshfasuifhasuifsaklfwqljeqwoirqwoihjfzfaslfhasljhraasadjlaaslkdjsajdklaskjfoiqwlknadlfjadfkajspifusoapsaladslkjhlasfjsaklfjwqoilaksfjaslknfsalknascamvbkjberiuwqhriqwphroqwoqiwrqwlaslnvdsnvdsnsadjkashqouiwrhjashfkjsafjasflashfsaoufhssdfjldajfoahfaosfsauofsafjlashfjalkshfasuifhasuifsaklfwqljeqwoirqwoihjfzfaslfhasljhraasadjlaaslkdjsajdklaskjfoiqwlknadlfjadfkajspifusoapsaladslkjhlasfjsaklfjwqoilaksfjaslknfsalknascamvbkjberiuw&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "sadjkashqouiwrhjashfkjsafjasflashfsaoufhssdfjldajfoahfaosfsauofsafjlashfjalkshfasuifhasuifsaklfwqljeqwoirqwoihjfzfaslfhasljhraasadjlaaslkdjsajdklaskjfoiqwlknadlfjadfkajspifusoapsaladslkjhlasfjsaklfjwqoilaksfjaslknfsalknascamvbkjberiuwqhriqwphroqwoqiwrqwlaslnvdsnvdsnsadjkashqouiwrhjashfkjsafjasflashfsaoufhssdfjldajfoahfaosfsauofsafjlashfjalkshfasuifhasuifsaklfwqljeqwoirqwoihjfzfaslfhasljhraasadjlaaslkdjsajdklaskjfoiqwlknadlfjadfkajspifusoapsaladslkjhlasfjsaklfjwqoilaksfjaslknfsalknascamvbkjberiuw"
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_08_500_string",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=sadjkashqouiwrhjashfkjsafjasflashfsaoufhssdfjldajfoahfaosfsauofsafjlashfjalkshfasuifhasuifsaklfwqljeqwoirqwoihjfzfaslfhasljhraasadjlaaslkdjsajdklaskjfoiqwlknadlfjadfkajspifusoapsaladslkjhlasfjsaklfjwqoilaksfjaslknfsalknascamvbkjberiuwqhriqwphroqwoqiwrqwlaslnvdsnvdsnsadjkashqouiwrhjashfkjsafjasflashfsaoufhssdfjldajfoahfaosfsauofsafjlashfjalkshfasuifhasuifsaklfwqljeqwoirqwoihjfzfaslfhasljhraasadjlaaslkdjsajdklaskjfoiqwlknadlfjadfkajspifusoapsaladslkjhlasfjsaklfjwqoilaksfjaslknfsalknascamvbkjberiuw&pretty=1",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "sadjkashqouiwrhjashfkjsafjasflashfsaoufhssdfjldajfoahfaosfsauofsafjlashfjalkshfasuifhasuifsaklfwqljeqwoirqwoihjfzfaslfhasljhraasadjlaaslkdjsajdklaskjfoiqwlknadlfjadfkajspifusoapsaladslkjhlasfjsaklfjwqoilaksfjaslknfsalknascamvbkjberiuwqhriqwphroqwoqiwrqwlaslnvdsnvdsnsadjkashqouiwrhjashfkjsafjasflashfsaoufhssdfjldajfoahfaosfsauofsafjlashfjalkshfasuifhasuifsaklfwqljeqwoirqwoihjfzfaslfhasljhraasadjlaaslkdjsajdklaskjfoiqwlknadlfjadfkajspifusoapsaladslkjhlasfjsaklfjwqoilaksfjaslknfsalknascamvbkjberiuw"
+                },
+                {
+                  "key": "pretty",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:55:02 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GW1tngcGvHcEJdg="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vfqBskFtbarJBRQifweEsSynfJhl8Yt8cF9waCS2K80SVSMGZ%2FKTI0k0binUCpg9aX9t9BEI6B827b9efR2ZZdi%2B%2Fv4P2%2FL%2F1pXp%2BJztQ2Gpd1MNUUJmQKhUpQMHraAjm3VtWF%2BKGrk%3D\"}]}"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a4b3d3cb8ec46-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": {\n    \"objects\": [],\n    \"meta\": {\n      \"total\": 0,\n      \"count\": 0,\n      \"limit\": 25,\n      \"offset\": 0,\n      \"more\": false,\n      \"request_id\": \"4f69bff6-3f90-4a52-87c6-65d41876e71e\",\n      \"duration\": 81\n    }\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_07_integer",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=12345&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "12345"
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_07_integer",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=12345&pretty=1",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "12345"
+                },
+                {
+                  "key": "pretty",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:52:12 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GW1TCjTTPHcEJxA="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4psz6y5oaxpnF6G4BYAjvRQI03AHzjtwAxL2f20rrt7KnFB0OOT8medWbn7W1Gxde1h5k%2BcS3t8tEKXOlHvYxKek%2BMXJfKo62OBye1%2F%2BboeMma0C9hKIB2xwnVt2znrHwL2IyxCfv9A%3D\"}]}"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a471529a1c971-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": {\n    \"objects\": [],\n    \"meta\": {\n      \"total\": 0,\n      \"count\": 0,\n      \"limit\": 25,\n      \"offset\": 0,\n      \"more\": false,\n      \"request_id\": \"68b53097-f9c1-45a3-862c-7fedfa07e21d\",\n      \"duration\": 68\n    }\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_06_empty_name",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": ""
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_06_empty_name",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=&pretty=1",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": ""
+                },
+                {
+                  "key": "pretty",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:50:51 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "126"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GW1GTiLuPHcEP9w="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jLBwtGlq%2FlS12nPq5aCNnINemZV6f3edaibeW1NPx4ooR7enVc1aF0CoSXVWisJmfSnNuvMWcyagt3OQt6x828b7Rp5XZZlmVEezQX%2Fc2MZTU5WHBVqP1tKOTB5z3cf1NG8kSflckEs%3D\"}]}"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a45179b92500d-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"errors\": [\n    {\n      \"message\": \"Search query parameter cannot be empty.\",\n      \"code\": \"searchQueryEmpty\"\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "case_05_nonexisit_country",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+          }
+        ],
+        "url": {
+          "raw": "https://api.restcountries.com/countries/v5?q=Wakanda&pretty=1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restcountries",
+            "com"
+          ],
+          "path": [
+            "countries",
+            "v5"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "Wakanda"
+            },
+            {
+              "key": "pretty",
+              "value": "1"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl \"https://api.restcountries.com/countries/v5?q=canada&pretty=1\" \\\n  -H \"Authorization: {{bearer_token_0w0g}}\""
+      },
+      "response": [
+        {
+          "name": "case_05_nonexisit_country",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "rc_live_2af9d851b33749b697850e91926fd75d"
+              }
+            ],
+            "url": {
+              "raw": "https://api.restcountries.com/countries/v5?q=Wakanda&pretty=1",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restcountries",
+                "com"
+              ],
+              "path": [
+                "countries",
+                "v5"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "Wakanda"
+                },
+                {
+                  "key": "pretty",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 05 Nov 2026 07:49:14 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "apigw-requestid",
+              "value": "GW03Ii3LvHcEMtA="
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4Ws4I2RASOhGRZeghM232RivfmAYICWJhy8%2BFCAENhx4XnsQUe27GfyWKQtuC3F61SVOm1gQYEC8hy45BXxn%2FHDfd7ybyI%2FpE13XakkX2ciHF2Vi4Z3%2BnJVRN73yU21CD5WjAT%2BhKgI%3D\"}]}"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "a55a42b8fee2b154-IAD"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"data\": {\n    \"objects\": [],\n    \"meta\": {\n      \"total\": 0,\n      \"count\": 0,\n      \"limit\": 25,\n      \"offset\": 0,\n      \"more\": false,\n      \"request_id\": \"aa2b151d-d373-4341-aa6c-6afe91dd6bf5\",\n      \"duration\": 59\n    }\n  }\n}"
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "bearer_token_0w0g",
+      "secret": true
+    }
+  ]
+}
